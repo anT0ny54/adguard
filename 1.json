@@ -5,7 +5,6 @@
             "source": "https://raw.githubusercontent.com/t0ny54/agh/main/blocklist.txt"
         },
     "transformations": [
-        "Deduplicate",
         "Compress",
         "RemoveComments"
     ]
