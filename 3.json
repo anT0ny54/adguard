@@ -1,7 +1,10 @@
 {
- {
-      "name": "Local file",
-      "source": "blocklist.txt",
-      "transformations": ["RemoveComments", "Compress"]
+  "name": "List name 3",
+  "sources": [
+    {
+      "name": "List",
+      "source": "blocklist.txt"
     }
+  ],
+  "transformations": ["Compress"]
 }
