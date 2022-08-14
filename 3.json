@@ -2,6 +2,6 @@
  {
       "name": "Local file",
       "source": "blocklist.txt",
-      "transformations": ["Deduplicate", "RemoveComments", "Compress"]
+      "transformations": ["RemoveComments", "Compress"]
     }
 }
