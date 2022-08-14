@@ -24,7 +24,7 @@ jobs:
       - name: Build blocklist
         uses: actions/checkout@v3
       - run: |
-          npm i @adguard/hostlist-compiler
+          yarn add @adguard/hostlist-compiler
           hostlist-compiler -c 1.json -o blocklist-agh.txt
           hostlist-compiler -c 2.json -o adultfilter-agh.txt
           hostlist-compiler -c 3.json -o familyfilter-agh.txt
