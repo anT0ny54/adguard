@@ -11,6 +11,7 @@ on:
     - '*.py'
     - 'README.md'
     - '*.json'
+    - '.github/**'
   schedule:
     - cron: '15 10 * * *'
 
