@@ -1,10 +1,9 @@
 {
-  "name": "List name 2",
+  "name": "test list 2",
   "sources": [
     {
-      "name": "Remote rules 2",
-      "source": "https://raw.githubusercontent.com/t0ny54/agh/main/adultfilter.txt"
+      "source": "https://raw.githubusercontent.com/t0ny54/agh/main/adultfilter.txt",
+      "transformations": ["Deduplicate", "Compress", "RemoveComments"]
     }
-  ],
-  "transformations": ["Compress"]
+  ]
 }
