@@ -2,6 +2,6 @@
  {
       "name": "Remote rules 2",
       "source": "https://raw.githubusercontent.com/t0ny54/agh/main/adultfilter.txt",
-      "transformations": ["Deduplicate", "RemoveComments", "Compress"]
+      "transformations": ["RemoveComments", "Compress"]
     }
 }
