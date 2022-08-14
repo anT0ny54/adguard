@@ -1,10 +1,9 @@
 {
-  "name": "List name 1",
+  "name": "test list 1",
   "sources": [
     {
-      "name": "Remote rules 1",
-      "source": "https://raw.githubusercontent.com/t0ny54/agh/main/blocklist.txt"
+      "source": "https://raw.githubusercontent.com/t0ny54/agh/main/blocklist.txt",
+      "transformations": ["Deduplicate", "Compress", "RemoveComments"]
     }
-  ],
-  "transformations": ["Compress"]
+  ]
 }
