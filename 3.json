@@ -1,10 +1,9 @@
 {
-  "name": "List name 3",
+  "name": "test list 3",
   "sources": [
     {
-      "name": "List",
-      "source": "blocklist.txt"
+      "source": "blocklist.txt",
+      "transformations": ["RemoveComments", "Compress"]
     }
-  ],
-  "transformations": ["Compress"]
+  ]
 }
