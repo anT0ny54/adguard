@@ -2,6 +2,16 @@ name: Update blocklist
 on:
   push:
     paths-ignore:
+    - '.github/**'
+    - 'lists/**'
+    - '*.txt'
+    - '*.yaml'
+    - '*.conf'
+    - '*.txt'
+    - '*.sh'
+    - '*.py'
+    - 'README.md'
+    - '*.json'
   schedule:
     - cron: '00 10 * * *'
 
