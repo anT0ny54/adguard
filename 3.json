@@ -1,11 +1,7 @@
 {
-    "name": "LostAd Full",
-    "sources": [
-        {
-            "source": "blocklist.txt"
-        },
-    "transformations": [
-        "Deduplicate",
-        "Compress",
-        "RemoveComments"
-    ]
+ {
+      "name": "Local file",
+      "source": "blocklist.txt",
+      "transformations": ["Deduplicate", "RemoveComments", "Compress"]
+    }
+}
