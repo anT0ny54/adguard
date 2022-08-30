@@ -439,8 +439,8 @@ mkdir -p "$TEMP_DIR/sources"
 
 echo "[*] updating domain list..."
 fetch_domains_comments \
-    "https://raw.githubusercontent.com/t0ny54/agh/main/blocklist.txt" \
-    "https://raw.githubusercontent.com/t0ny54/agh/main/adultfilter.txt" \
+    "https://raw.githubusercontent.com/t0ny54/blocklistwithregex/main/export/blocklist.txt" \
+    "https://raw.githubusercontent.com/t0ny54/adultfilterwithregex/main/export/blocklist.txt" \
     "https://raw.githubusercontent.com/nextdns/metadata/master/parentalcontrol/bypass-methods" \
     "https://dbl.oisd.nl/basic/"
 
