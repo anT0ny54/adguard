@@ -2,7 +2,7 @@
   "name": "test list 1",
   "sources": [
     {
-      "source": "https://raw.githubusercontent.com/t0ny54/agh/main/blocklist.txt",
+      "source": "https://raw.githubusercontent.com/t0ny54/blocklistwithregex/main/export/blocklist.txt",
       "transformations": ["Deduplicate", "Compress", "RemoveComments"]
     }
   ]
