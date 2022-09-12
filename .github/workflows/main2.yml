@@ -1,7 +1,7 @@
 name: Update AGH
+on:
   repository_dispatch:
   workflow_dispatch:
-on:
   push:
     paths-ignore:
     - 'lists/**'
