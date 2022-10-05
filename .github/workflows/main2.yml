@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths-ignore:
+    
   schedule:
     - cron: '15 15 * * *'
 
