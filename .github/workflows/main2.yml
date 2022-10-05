@@ -4,7 +4,16 @@ on:
   workflow_dispatch:
   push:
     paths-ignore:
-    
+    - 'lists/**'
+    - '*.txt'
+    - '*.yaml'
+    - '*.conf'
+    - '*.txt'
+    - '*.sh'
+    - '*.py'
+    - 'README.md'
+    - '*.json'
+    - '.github/**'
   schedule:
     - cron: '15 15 * * *'
 
